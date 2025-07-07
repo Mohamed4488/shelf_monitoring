@@ -9,7 +9,7 @@ with Notebook():
     from notebooks.shelf import  draw_shelves
     from notebooks.product import draw_products
 
-st.set_page_config("Shelf & Product Detection", layout="wide")
+st.set_page_config("Shelf & Product Detection")
 st.title("Shelf & Product Detection")
 
 @st.cache_resource
